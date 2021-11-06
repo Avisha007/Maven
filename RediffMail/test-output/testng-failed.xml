@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testchrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestPackage.TestClass">
+        <methods>
+          <include name="loginToMail"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="clearPom"/>
+          <include name="verifyHomePage"/>
+          <include name="PomClassObj"/>
+          <include name="logOutFromMail"/>
+        </methods>
+      </class> <!-- TestPackage.TestClass -->
+    </classes>
+  </test> <!-- Testchrome(failed) -->
+  <test thread-count="5" name="Testfirefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="TestPackage.TestClass">
+        <methods>
+          <include name="loginToMail"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="clearPom"/>
+          <include name="verifyHomePage"/>
+          <include name="PomClassObj"/>
+          <include name="logOutFromMail"/>
+        </methods>
+      </class> <!-- TestPackage.TestClass -->
+    </classes>
+  </test> <!-- Testfirefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

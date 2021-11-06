@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-01T01:21:07 IST" name="Suite" finished-at="2021-11-01T01:23:23 IST" duration-ms="136164">
+    <groups>
+    </groups>
+    <test started-at="2021-11-01T01:21:07 IST" name="Testchrome" finished-at="2021-11-01T01:22:10 IST" duration-ms="62678">
+      <class name="TestPackage.TestClass">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestPackage.TestClass@27f981c6]" started-at="2021-11-01T01:21:07 IST" name="launchBrowser" finished-at="2021-11-01T01:21:49 IST" duration-ms="41716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="PomClassObj()[pri:0, instance:TestPackage.TestClass@27f981c6]" started-at="2021-11-01T01:21:49 IST" name="PomClassObj" finished-at="2021-11-01T01:21:49 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PomClassObj -->
+        <test-method is-config="true" signature="loginToMail()[pri:0, instance:TestPackage.TestClass@27f981c6]" started-at="2021-11-01T01:21:49 IST" name="loginToMail" finished-at="2021-11-01T01:22:00 IST" duration-ms="10611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToMail -->
+        <test-method signature="verifyHomePage()[pri:0, instance:TestPackage.TestClass@27f981c6]" started-at="2021-11-01T01:22:00 IST" name="verifyHomePage" finished-at="2021-11-01T01:22:00 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method is-config="true" signature="logOutFromMail()[pri:0, instance:TestPackage.TestClass@27f981c6]" started-at="2021-11-01T01:22:00 IST" name="logOutFromMail" finished-at="2021-11-01T01:22:09 IST" duration-ms="8688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromMail -->
+        <test-method is-config="true" signature="clearPom()[pri:0, instance:TestPackage.TestClass@27f981c6]" started-at="2021-11-01T01:22:09 IST" name="clearPom" finished-at="2021-11-01T01:22:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPom -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPackage.TestClass@27f981c6]" started-at="2021-11-01T01:22:09 IST" name="closeBrowser" finished-at="2021-11-01T01:22:10 IST" duration-ms="878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestPackage.TestClass -->
+    </test> <!-- Testchrome -->
+    <test started-at="2021-11-01T01:22:10 IST" name="Testfirefox" finished-at="2021-11-01T01:23:23 IST" duration-ms="73001">
+      <class name="TestPackage.TestClass">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestPackage.TestClass@1c7696c6]" started-at="2021-11-01T01:22:10 IST" name="launchBrowser" finished-at="2021-11-01T01:22:59 IST" duration-ms="48273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="PomClassObj()[pri:0, instance:TestPackage.TestClass@1c7696c6]" started-at="2021-11-01T01:22:59 IST" name="PomClassObj" finished-at="2021-11-01T01:22:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PomClassObj -->
+        <test-method is-config="true" signature="loginToMail()[pri:0, instance:TestPackage.TestClass@1c7696c6]" started-at="2021-11-01T01:22:59 IST" name="loginToMail" finished-at="2021-11-01T01:23:13 IST" duration-ms="14782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToMail -->
+        <test-method signature="verifyHomePage()[pri:0, instance:TestPackage.TestClass@1c7696c6]" started-at="2021-11-01T01:23:13 IST" name="verifyHomePage" finished-at="2021-11-01T01:23:14 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method is-config="true" signature="logOutFromMail()[pri:0, instance:TestPackage.TestClass@1c7696c6]" started-at="2021-11-01T01:23:14 IST" name="logOutFromMail" finished-at="2021-11-01T01:23:20 IST" duration-ms="6514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromMail -->
+        <test-method is-config="true" signature="clearPom()[pri:0, instance:TestPackage.TestClass@1c7696c6]" started-at="2021-11-01T01:23:20 IST" name="clearPom" finished-at="2021-11-01T01:23:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPom -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPackage.TestClass@1c7696c6]" started-at="2021-11-01T01:23:20 IST" name="closeBrowser" finished-at="2021-11-01T01:23:23 IST" duration-ms="3224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestPackage.TestClass -->
+    </test> <!-- Testfirefox -->
+  </suite> <!-- Suite -->
+</testng-results>
